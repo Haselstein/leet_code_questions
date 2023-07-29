@@ -1,7 +1,5 @@
 package algorithms.isPrime;
 
-import java.util.stream.IntStream;
-
 public class IsPrime {
 
     public boolean isPrime(int a) {

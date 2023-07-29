@@ -22,7 +22,7 @@ public class SumFractions {
 
         int b = findLeastCommonMultiple(a); //Общий знаменатель
 
-        int temp_1 = 0; //i-й числитель
+        int temp_1; //i-й числитель
         int sum = 0;    //Сумма всех числителей
         for (int[] ints : l) {
             temp_1 = b / ints[1] * ints[0];

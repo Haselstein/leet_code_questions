@@ -11,7 +11,7 @@ public class SumDigPow {
         //Например 89 = 8^1 + 9^2 -> искомое
         //88 != 8^1 + 8^2 = 72 -> ненужное число
 
-        ArrayList<Long> result = new ArrayList<Long>();
+        ArrayList<Long> result = new ArrayList<>();
 
         for (long i = a; i <= b; i++)
             if (isEureka(i))

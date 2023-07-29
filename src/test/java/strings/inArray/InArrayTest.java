@@ -8,8 +8,8 @@ class InArrayTest {
 
     InArray inArray = new InArray();
 
-    String a[] = new String[] { "arp", "live", "strong" };
-    String b[] = new String[] { "lively", "alive", "harp", "sharp", "armstrong" };
+    String[] a = new String[] { "arp", "live", "strong" };
+    String[] b = new String[] { "lively", "alive", "harp", "sharp", "armstrong" };
 
     String[] actual = inArray.inArray(a, b);
     String[] expected = {"arp", "live", "strong"};

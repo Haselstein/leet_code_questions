@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SumDig_nthTermTest {
+class SumDigTermTest {
 
     SumDig_nthTerm sumDigNthTerm = new SumDig_nthTerm();
 

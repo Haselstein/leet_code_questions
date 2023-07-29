@@ -15,7 +15,7 @@ public class InArray {
         // array2 = { "harp", "karp", "alive", "stronger" }
         // result = { "arp", "live", "strong" }
 
-        ArrayList<String> result = new ArrayList<String>();
+        ArrayList<String> result = new ArrayList<>();
 
         for (String s : array2)
             for (String string : array1)

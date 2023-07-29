@@ -12,10 +12,9 @@ public class SalaryBonus {
         double sum = 0.0;                           //Промежуточная переменная, необходимая для вычислений
         long big;                                   //Промежуточная переменная, необходимая для вычислений
 
-        for (int i = 0; i < arr.length; i++)
-            sum += arr[0] / (double)arr[i];
+        for (int j : arr) sum += arr[0] / (double) j;
 
-        a[0] = (long)Math.round(s / sum);
+        a[0] = Math.round(s / sum);
         big = a[0] * arr[0];
 
         for (int i = 1; i < arr.length; i++)

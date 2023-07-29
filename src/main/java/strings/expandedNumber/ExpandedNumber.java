@@ -11,7 +11,6 @@ public class ExpandedNumber {
 
         ArrayList<Integer> array = new ArrayList<>();
         ArrayList<String> arrayString = new ArrayList<>();
-        String b = null;
         int i = 0;
 
         while (a > 0) {

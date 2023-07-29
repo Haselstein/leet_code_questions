@@ -16,7 +16,7 @@ public class FindMedianSortedArrays {
         System.arraycopy(nums2, 0, result, fal, sal);
         Arrays.sort(result);
 
-        float answer = 0;
+        float answer;
 
         if (result.length %2 == 1)
             answer = result[(result.length-1) / 2];

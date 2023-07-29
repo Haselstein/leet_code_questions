@@ -1,6 +1,5 @@
 package algorithms.isPrime;
 
-import org.hamcrest.core.Is;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
