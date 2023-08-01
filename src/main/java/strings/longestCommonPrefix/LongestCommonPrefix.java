@@ -12,7 +12,6 @@ public class LongestCommonPrefix {
             while (!strs[i].startsWith(answer)) {
                 answerLenght--;
                 answer = answer.substring(0, answerLenght);
-                System.out.println("Answer = " + answer + " and answer length = " + answerLenght);
             }
         }
 
