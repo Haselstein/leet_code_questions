@@ -70,4 +70,35 @@ class PlusOneTest {
 
     }
 
+    @Test
+    void check8999to9000() {
+        int[] digits = {8, 9, 9, 9};
+        int[] expectedDigits = {9, 0, 0, 0};
+
+        int[] actual = plusOne.plusOne(digits);
+        for (int i = 0; i < actual.length; i++)
+            assertEquals(expectedDigits[i], actual[i]);
+    }
+
+    @Test
+    void check99to100() {
+        int[] digits = {9, 9};
+        int[] expectedDigits = {1, 0, 0};
+
+        int[] actual = plusOne.plusOne(digits);
+        for (int i = 0; i < actual.length; i++)
+            assertEquals(expectedDigits[i], actual[i]);
+    }
+
+    @Test
+    void check9to10() {
+        int[] digits = {9};
+        int[] expectedDigits = {1, 0};
+
+        int[] actual = plusOne.plusOne(digits);
+        for (int i = 0; i < actual.length; i++)
+            assertEquals(expectedDigits[i], actual[i]);
+    }
+
+
 }
