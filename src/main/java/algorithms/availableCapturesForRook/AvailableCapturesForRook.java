@@ -1,6 +1,7 @@
 package algorithms.availableCapturesForRook;
 
 public class AvailableCapturesForRook {
+    // Проверка возможности хода для ферзя
 
     public int numRookCaptures(char[][] board) {
 
